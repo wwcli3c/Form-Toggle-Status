@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+.container {
+  width: 600px;
+  margin: auto;
+}
+form input, form button {
+  margin-right: 10px;
+  padding: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+.status-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #eee;
+  border: none;
+}
+.status-1 {
+  background-color: #4CAF50;
+  color: white;
+}
+.status-0 {
+  background-color: #f44336;
+  color: white;
+}
